@@ -92,5 +92,10 @@ echo "sudo tailscale up"
 echo
 echo "Then login in the browser."
 echo
+echo "kubeadm token create --print-join-command"
+echo
+echo "The join command contains :"
+echo "sudo kubeadm join <MASTER-IP>:6443 --token <TOKEN> --discovery-token-ca-cert-hash sha256:<HASH>"
+echo
 echo "Finally execute the kubeadm join command"
 echo "generated on the master node."
