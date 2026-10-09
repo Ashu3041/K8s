@@ -92,6 +92,7 @@ echo "sudo tailscale up"
 echo
 echo "Then login in the browser."
 echo
+echo "IN MASTER_NODE"
 echo "kubeadm token create --print-join-command"
 echo
 echo "The join command contains :"
